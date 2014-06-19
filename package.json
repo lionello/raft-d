@@ -1,0 +1,13 @@
+{
+	"name": "raft-d",
+	"description": "D implementation of the RAFT consensus algorithm",
+	"copyright": "Copyright © 2013, Owtware (Shanghai) Ltd.",
+	"authors": [
+		"Lionello Lunesu"
+	],
+	"targetType": "library",
+	"mainSourceFile": "source/raft/package.d",
+	"dependencies": {
+        "msgpack-d": "~master"
+	}
+}
